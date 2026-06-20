@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="NIKHIL SONI">
+        <title>Laundry Mart Webpage</title>
+    </head>
+
+    <body>
+        <header>
+            <h1 align="center">Welcome to Laundry Wallah / Laundry Mart</h1>
+        </header>
+
+        <main>
+            <section id="about">
+                <p>
+                    Laundry Wallah / Laundry Mart is a modern laundry service provider dedicated to delivering clean, fresh, and perfectly maintained clothes. We offer washing, ironing, dry cleaning, and doorstep pickup and delivery services to make laundry easy and convenient for our customers. Our goal is to provide fast, affordable, and high-quality laundry solutions while ensuring complete customer satisfaction.
+                </p>
+            </section>
+
+            <section id="laundry_image">
+                <img src="laundry_wallah.png" 
+                alt="laundry image" 
+                height="600px"
+                width="100%">
+            </section>
+
+            <br />
+
+            <section id="services">
+                <h2>OUR SERVICE</h2>
+                <ul>
+                    <li>Washing and Drying</li>
+                    <li>Ironing and Folding</li>
+                    <li>Dry Cleaning</li>
+                    <li>Stain Removal</li>
+                    <li>Express Services</li>
+                    <li>Special Garment Care</li>                    
+                </ul>
+            </section>
+
+            <br />
+
+            <section id="price_list">
+                <h2>PRICE LIST</h2>
+                <table width="30%" border="1" style="text-align: center;">
+                    <thead>
+                        <tr>
+                            <th>Services</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Washing and Drying</td>
+                            <td>RS. 10.0</td>
+                        </tr>
+
+                        <tr>
+                            <td>Ironing and Folding</td>
+                            <td>RS. 5.0</td>
+                        </tr>
+                        <tr>
+                            <td>Dry Cleaning</td>
+                            <td>RS. 80.0</td>
+                        </tr>
+                        <tr>
+                            <td>Stain Removal</td>
+                            <td>RS. 50.0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <br />
+            
+            <section id="book_now">
+                <h2>BOOK NOW</h2>
+                <form action="" method="post">
+                    <label for="name">NAME:</label>
+                    <input type="text" id="Name" name="name" pattern="[A-Za-z]{2,15} [A-Za-z]{2,15}" maxlength="50" required >
+                    &nbsp;
+                    <label for="email">EMAIL:</label>
+                    <input type="email" id="Email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}" required >
+                    &nbsp;
+                    <label for="phone_number">Mobile Number:</label>
+                    <input type="tel" id="Phone"  name="phone_number" pattern="[0-9]{10}" maxlength="10" required>
+                    <input type="submit">
+                </form>
+            </section>
+        </main>
+        
+        <br />
+        
+        <footer>
+            <hr />
+            Contact us at: <a href="mailto: info@laundrymart.com">info@laundrymart.com</a>
+        </footer>
+        
+    </body>
+</html>
